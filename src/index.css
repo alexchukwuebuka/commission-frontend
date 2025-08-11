@@ -208,10 +208,7 @@ body {
 }
 
 .highlight {
-    background: #91770A;
-    background: linear-gradient(to right, #91770A 0%, #E6B80B 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: var(--secondary-color);
     font-family: 'Poppins';
 }
 
@@ -219,7 +216,7 @@ body {
     --primary-color: rgb(6, 6, 6);
     --secondary-color: rgb(232, 232, 232);
     --secondary-mild: rgb(18, 18, 18);
-    --mild-color: #595959;
+    --mild-color: #787878;
     --dark-mild: #0b4c89;
     --color-variant: rgb(9, 133, 61);
     --dark: rgb(31, 30, 88);
