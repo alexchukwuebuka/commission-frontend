@@ -151,4 +151,13 @@
         object-fit: contain;
         width: 100%;
     }
+    .aboutComponentSection{
+        flex-direction: column;
+    }
+    .landpage-text-container{
+        width: 95%;
+    }
+    .landpage-img-container{
+        width: 95%;
+    }
 }

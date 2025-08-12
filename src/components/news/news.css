@@ -84,4 +84,14 @@
     .service-card-container {
         flex-direction: column;
     }
+    .why-choose-us-text-container{
+        width: 100%;
+    }
+    .why-choose-us-text-container h1{
+        font-size: 1.3rem;
+        width: 95% !important;
+    }
+    .why-choose-us-text-container p{
+        width: 90% !important;
+    }
 }
