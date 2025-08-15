@@ -24,7 +24,7 @@ const News = () => {
                   <small>09/07/17</small>
                   <h3>Commission Launches Digital Records Initiative</h3>
                   <p>The Commission has introduced a new digital system to streamline employee data management, improve record accuracy, and enhance service delivery across all departments...</p>
-                  <Link to="/goldstock">read more</Link>
+                  <Link to="/">read more</Link>
               </div>
               </div>
               <div className="gold-card" data-aos="fade-up">
@@ -33,7 +33,7 @@ const News = () => {
                   <small>01/09/16</small>
                   <h3>Training Programme for Local Government Staff Begins</h3>
                   <p>A capacity-building workshop is underway to equip local government employees with modern administrative skills for more efficient public service delivery...</p>
-                  <Link to="/realestate">read more</Link>
+                  <Link to="/">read more</Link>
               </div>
               </div>
               <div className="gold-card" data-aos="fade-up">
@@ -43,7 +43,7 @@ const News = () => {
                   <h3>Community Outreach on Public Service Awareness</h3>
                   <p>
                     Officials have commenced a series of community forums aimed at educating citizens about available public services and how to access them effectively...</p>
-                      <Link to="/agrotech">read more</Link>
+                      <Link to="/">read more</Link>
               </div>
               </div>
           </div>

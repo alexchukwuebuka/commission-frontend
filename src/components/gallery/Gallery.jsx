@@ -2,7 +2,9 @@ import './gallery.css'
 
 const Gallery = () => {
   return (
-      <section>
+    <section className='gallerySection'>
+      
+      
           
     </section>
   )

@@ -11,21 +11,21 @@ const AboutComponent = () => {
                     transition={{duration:0.65,delay:0.2}}
                 >
                    
-                    Innovative Copy Trading Platform for 
+                    About us
                 </h1>
                 <p
                     initial={{y:45, opacity:0}}
                     animate={{y:0, opacity:1}}
                     transition={{duration:0.65,delay:0.4}}
                 >
-                    Trust us to navigate the complexities of the investment market, while you sit back and watch your wealth flourish. It's time to unlock your financial potential and embark on a prosperous journey with us.
+                    The Government Service Commission is dedicated to ensuring transparency, efficiency, and fairness in public service administration. We oversee recruitment, staff welfare, and capacity development across all local government areas, upholding the highest standards of integrity and professionalism. Our mission is to build a skilled, motivated workforce that delivers quality service to citizens and drives sustainable community development.
                   </p>
                 <button className="cssbuttons-io"initial={{y:45, opacity:0}}
                     animate={{y:0, opacity:1}}
                     transition={{duration:0.65,delay:0.4}} onClick={()=>{
-                        navigate('/signup')
+                        navigate('/about')
                     }} >
-                  <span>get started</span>
+                  <span>read more</span>
                 </button>
             </div>
               <div className="landpage-img-container">

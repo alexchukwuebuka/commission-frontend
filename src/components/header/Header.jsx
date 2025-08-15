@@ -26,11 +26,11 @@ const Header = () => {
 
     const menuItems = [
         { name: "home", path: "/", dropdown: [] },
-        { name: "about", path: "/about", dropdown: [] }, 
-        { name: "markets", path: "/markets", dropdown: ["forex","futures", "indices", "stocks"] },
-        { name: "analytics", path: "/faq", dropdown: ["news", "technical-analysis","heatmaps","watchlists"] },
-        { name: "company", path: "/policy", dropdown: ["privacy-policy","team"] },
-        { name: "trading", path: "/buy-crypto", dropdown: ["buy-crypto", "copytrade"] }
+        { name: "about us", path: "/", dropdown: [] }, 
+        { name: "units/centers", path: "/", dropdown: ["development centers","local governments"] },
+        { name: "administration", path: "/", dropdown: ["news and updates","gallery", "privacy-policy"] },
+        { name: "services", path: "/", dropdown: ["semimar","civil service bootcamps", "rehabilitaion programmes"] },
+        { name: "contact us", path: "/", dropdown: ["complaints $ reports","our team"] },
     ];
 
     return (
@@ -40,7 +40,8 @@ const Header = () => {
             transition={{ duration: 0.65 }}
         >
             <div className="logo-container">
-                <img src="/apexnewlogo.png" alt="" className='txtlogo'/>
+                {/* <img src="/apexnewlogo.png" alt="" className='txtlogo'/> */}
+                <h2>ESLGSC</h2>
             </div>
             <nav>
                 <ul>
@@ -95,10 +96,10 @@ const Header = () => {
                                 <RiArrowDownSLine />
                             </div>
                             <div className={`market-links ${showMarkets && 'show-markets'}`}>
-                                <li className="element"><Link to='/forex'>forex</Link></li>
-                                <li className="element"><Link to='/futures'>futures</Link></li>
-                                <li className="element"><Link to='/indices'>indices</Link></li>
-                                <li className="element"><Link to='/stocks'>stocks</Link></li>
+                                <li className="element"><Link to='/'>forex</Link></li>
+                                <li className="element"><Link to='/'>futures</Link></li>
+                                <li className="element"><Link to='/'>indices</Link></li>
+                                <li className="element"><Link to='/'>stocks</Link></li>
                             </div>
                         </div>
                         <div className="market-dropdown" >
@@ -107,10 +108,10 @@ const Header = () => {
                                 <RiArrowDownSLine />
                             </div>
                             <div className={`analytics-links ${showAnalytics && 'show-markets'}`}>
-                                <li className="element"><Link to='/news'>news</Link></li>
-                                <li className="element"><Link to='/technical-analysis'>technical analysis</Link></li>
-                                <li className="element"><Link to='/heatmaps'>heatmaps</Link></li>
-                                <li className="element"><Link to='/watchlists'>watchlists</Link></li>
+                                <li className="element"><Link to='/'>news</Link></li>
+                                <li className="element"><Link to='/'>technical analysis</Link></li>
+                                <li className="element"><Link to='/'>heatmaps</Link></li>
+                                <li className="element"><Link to='/'>watchlists</Link></li>
                             </div>
                         </div>
                         <div className="market-dropdown" >
@@ -119,9 +120,9 @@ const Header = () => {
                                 <RiArrowDownSLine />
                             </div>
                             <div className={`company-links ${showCompany && 'show-markets'}`}>
-                                <li className="element"><Link to='/privacy-policy'>privacy policy</Link></li>
-                                <li className="element"><Link to='/team'>team</Link></li>
-                                <li className="element"><Link to='/faq'>faq</Link></li>
+                                <li className="element"><Link to='/'>privacy policy</Link></li>
+                                <li className="element"><Link to='/'>team</Link></li>
+                                <li className="element"><Link to='/'>faq</Link></li>
                             </div>
                         </div>
                         <div className="market-dropdown" >
@@ -130,8 +131,8 @@ const Header = () => {
                                 <RiArrowDownSLine />
                             </div>
                             <div className={`trading-links ${showTrading && 'show-markets'}`}>
-                                <li className="element"><Link to='/buy-crypto'>buy crypto</Link></li>
-                                <li className="element"><Link to='/copytrade'>copytrade</Link></li>
+                                <li className="element"><Link to='/'>buy crypto</Link></li>
+                                <li className="element"><Link to='/'>copytrade</Link></li>
                             </div>
                         </div>
                         <li className="element"><Link to='/login'>login</Link></li>
