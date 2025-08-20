@@ -92,7 +92,7 @@ nav ul li a {
 }
 
 .dropdown-link:hover {
-    background-color: rgb(37, 37, 37);
+    background-color: var(--dark-mild);
     color: white;
 }
 

@@ -26,7 +26,7 @@ const Footer = () => {
                 <div className="quicklink-card" data-aos="fade-up">
                       <Link to="/">contact</Link>
                       <Link to="/">services</Link>
-                    <Link to="/">our team</Link>
+                      <Link to="/">gallery</Link>
                 </div>
                 <div className="quicklink-card" data-aos="fade-up">
                       <Link to="/">news</Link>
@@ -34,9 +34,7 @@ const Footer = () => {
                     <Link to="/">development centers</Link>
                 </div>
                 <div className="quicklink-card" data-aos="fade-up">
-                      <Link to="/">gallery</Link>
-                      <Link to="/">incoporation certificate</Link>
-                    <Link to="/">privacy policy</Link>
+                      
                 </div>
 
             </div>

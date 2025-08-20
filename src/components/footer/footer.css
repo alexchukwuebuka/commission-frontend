@@ -64,7 +64,7 @@ footer {
 
 .quicklink-card a {
     text-transform: capitalize;
-    color: var(--mild-color);
+    color: rgb(197, 197, 197);
     font-size: .8rem;
     margin-top: 10px;
     width: 100%;
@@ -84,12 +84,12 @@ footer {
 
 .copyright-txt p {
     font-size: .8rem;
-    color: var(--mild-color);
+    color: rgb(197, 197, 197);
 }
 
 .policy-txt a {
     font-size: .9rem;
-    color: var(--mild-color);
+    color: rgb(197, 197, 197);
     text-transform: capitalize;
     width: 100%;
     text-align: left;

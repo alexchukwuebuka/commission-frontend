@@ -26,11 +26,10 @@ const Header = () => {
 
     const menuItems = [
         { name: "home", path: "/", dropdown: [] },
-        { name: "about us", path: "/", dropdown: [] }, 
-        { name: "units/centers", path: "/", dropdown: ["development centers","local governments"] },
-        { name: "administration", path: "/", dropdown: ["news and updates","gallery", "privacy-policy"] },
-        { name: "services", path: "/", dropdown: ["semimar","civil service bootcamps", "rehabilitaion programmes"] },
-        { name: "contact us", path: "/", dropdown: ["complaints $ reports","our team"] },
+        { name: "about us", path: "/about", dropdown: [] }, 
+        { name: "units/centers", path: "/", dropdown: ["development-centers","local-governments"] },
+        { name: "administration", path: "/", dropdown: ["news-and-updates","gallery"] },
+        { name: "contact-us", path: "/", dropdown: ["complaints-$-reports"] },
     ];
 
     return (

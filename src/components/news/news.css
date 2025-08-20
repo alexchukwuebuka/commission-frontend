@@ -57,11 +57,11 @@
 
 .gold-card-text p {
     margin: 10px 0px;
-    color: rgb(87, 87, 87);
+    color: rgb(80, 80, 80);
 }
 
 .gold-card-text small {
-    color: rgb(131, 131, 131);
+    color: rgb(80, 80, 80);
 }
 
 @media (max-width: 990px) and (min-width: 768px) {
