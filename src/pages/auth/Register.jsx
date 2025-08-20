@@ -218,7 +218,7 @@ const Signup = ({route}) => {
           {/* <img src="" alt="" className="signup-logo" onClick={() => {
             navigate('/')
           }} /> */}
-          <span class="subtitle">Get started with Copixlab, just create an account and enjoy the best copytrading experience.</span>
+          <span class="subtitle">Get started!</span>
           <div class="input_containers">
             <label class="input_labels" for="email_field">Firstname</label>
             <span className="icont">

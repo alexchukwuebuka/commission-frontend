@@ -84,7 +84,7 @@ const Login = () => {
           }} />
           <div class="title_container">
             <p class="titles">Login to your Account</p>
-            <span class="subtitle">Welcome to Copixlab, login and enjoy the best copytrading experience.</span>
+            <span class="subtitle">Welcome back!</span>
           </div>
           <br/>
           <div class="input_containers">
@@ -130,8 +130,7 @@ const Login = () => {
           <div class="separator">
             <span>Don't have an account?</span>
           </div>
-          <Link to="/signup" className="note">create account</Link>
-          <Link class="note" to='/policy'>Terms of use &amp; Conditions</Link>
+          <Link to="/register" className="note">create account</Link>
         </form>
         </div>       
  </main>

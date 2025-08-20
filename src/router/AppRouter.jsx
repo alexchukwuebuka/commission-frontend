@@ -12,6 +12,7 @@ import GalleryPage from '../pages/gallery/GalleryPage';
 import NewsPage from '../pages/NewsPage/NewsPage';
 import LocalGovernmentPage from '../pages/LocalGovernmentPage/LocalGovernmentPage';
 import DcPage from '../pages/DevelopmentCenterPage/DcPage';
+import Faq from '../pages/faq/Faq';
 
 const AppRouter = () => {
   const route = 'http://localhost:5000'
@@ -26,6 +27,7 @@ const AppRouter = () => {
       <Route path="/news-and-updates" element={<NewsPage/>} />
       <Route path="/gallery" element={<GalleryPage/>} />
       <Route path="/complaints-$-reports" element={<Complaint/>} />
+      <Route path="/faq" element={<Faq/>} />
       
       <Route
         path="/lga"

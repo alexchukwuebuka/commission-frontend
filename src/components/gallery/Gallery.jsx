@@ -111,7 +111,6 @@ const Gallery = () => {
                 </div>
               </div>
           </div>
-        
     </section>
   )
 }

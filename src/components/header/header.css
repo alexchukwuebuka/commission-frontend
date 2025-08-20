@@ -189,14 +189,14 @@ nav ul li a {
         padding: 0px;
         display: flex;
         flex-direction: column;
-        background-color: var(--secondary-color);
+        background-color: black;
         height: 0px;
         overflow: hidden;
         transition: all 0.3s ease-out;
     }
 
     .market-dropdown p {
-        color: black;
+        color: whitesmoke;
         text-transform: capitalize;
         width: 100%;
         text-align: left;
