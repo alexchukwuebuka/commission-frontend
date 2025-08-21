@@ -1426,6 +1426,10 @@ button {
         font-size: 1.2rem;
         text-align: left;
         justify-content: flex-start;
-        width: 95%;
+        width: 90%;
+    }
+    .header p{
+        padding: 0px;
+        background-color: red;
     }
 }
