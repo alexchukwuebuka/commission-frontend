@@ -1422,4 +1422,10 @@ button {
         align-items: center;
         justify-content: center;
     }
+    .header{
+        font-size: 1.2rem;
+        text-align: left;
+        justify-content: flex-start;
+        width: 95%;
+    }
 }

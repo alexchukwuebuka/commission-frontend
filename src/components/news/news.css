@@ -89,10 +89,13 @@
         width: 100%;
     }
     .why-choose-us-text-container h1{
-        font-size: 1.3rem;
+        font-size: 1.5rem !important;
         width: 95% !important;
+        text-align: left !important;
+        margin: 20px 0px;
     }
     .why-choose-us-text-container p{
         width: 90% !important;
+        text-align: left !important;
     }
 }
