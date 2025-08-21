@@ -119,16 +119,6 @@ const Header = () => {
                                 <li className="element"><Link to='/faq'>faq</Link></li>
                             </div>
                         </div>
-                        <div className="market-dropdown" >
-                            <p onClick={()=> setShowTrading(!showTrading)}>trading</p>
-                            <div onClick={()=> setShowTrading(!showTrading)} className={`market-dropdown-svg-container ${showTrading && 'rotate'}` }>
-                                <RiArrowDownSLine />
-                            </div>
-                            <div className={`trading-links ${showTrading && 'show-markets'}`}>
-                                <li className="element"><Link to='/'>buy crypto</Link></li>
-                                <li className="element"><Link to='/'>copytrade</Link></li>
-                            </div>
-                        </div>
                         <li className="element"><Link to='/login'>login</Link></li>
                     </ul>
                 </div>
