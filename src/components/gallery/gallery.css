@@ -58,4 +58,10 @@
     .specialGalleryCard,.galleryCard{
         width: 100%;
     }
+    .galleryImage{
+        height: 400px;
+    }
+    .specialGalleryCard{
+        margin: 10px 0px;
+    }
 }
