@@ -114,12 +114,18 @@
         justify-content: center;
         padding-bottom: 0px;
         background-position: bottom;
+        padding: 0px;
+        background-color: red;
     }
 
     .landpage-content-wrapper {
         flex-direction: column;
         justify-content: center;
         width: 100%;
+        padding: 0px;
+    }
+    .swipeChildTextContainer{
+        padding: 0px;
     }
 
 
