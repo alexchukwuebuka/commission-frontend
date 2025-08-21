@@ -70,7 +70,7 @@
     }
 
     .gold-card {
-        width: 350px;
+        width: 30%;
         margin-top: 30px;
     }
 }
@@ -83,6 +83,7 @@
 
     .service-card-container {
         flex-direction: column;
+        width: 95%;
     }
     .why-choose-us-text-container{
         width: 100%;

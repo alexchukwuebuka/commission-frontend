@@ -130,7 +130,6 @@ const Header = () => {
                             </div>
                         </div>
                         <li className="element"><Link to='/login'>login</Link></li>
-                        <li className="element"><Link to='/signup'>signup</Link></li>
                     </ul>
                 </div>
             </div>

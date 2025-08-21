@@ -50,3 +50,12 @@
     align-items: center;
     justify-content: center;
 }
+@media (max-width: 990px) {
+    .specialGalleryWrapper,.gallery-card-container{
+        width: 95%;
+        flex-direction: column;
+    }
+    .specialGalleryCard,.galleryCard{
+        width: 100%;
+    }
+}

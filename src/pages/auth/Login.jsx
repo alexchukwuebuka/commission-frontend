@@ -127,10 +127,6 @@ const Login = () => {
                     <p>remember me?</p>
                   </div>
                   <button type='submit'>login</button>
-          <div class="separator">
-            <span>Don't have an account?</span>
-          </div>
-          <Link to="/register" className="note">create account</Link>
         </form>
         </div>       
  </main>

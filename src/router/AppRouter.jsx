@@ -5,7 +5,6 @@ import LgaDashboard from '../pages/lga/LgaDashboard';
 import Unauthorized from '../pages/errors/Unauthorized';
 import ProtectedRoute from './ProtectedRoute';
 import Home from '../pages/Home';
-import Signup from '../pages/auth/Register';
 import About from '../pages/about/About';
 import Complaint from '../pages/complaints/Complaint';
 import GalleryPage from '../pages/gallery/GalleryPage';
@@ -20,7 +19,6 @@ const AppRouter = () => {
     <>
     <Routes>
       <Route path="/login" element={<Login />} />
-      <Route path="/register" element={<Signup route={route} />} />
       <Route path="/about" element={<About />} />
       <Route path="/development-centers" element={<DcPage/>} />
       <Route path="/local-governments" element={<LocalGovernmentPage/>} />

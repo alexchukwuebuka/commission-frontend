@@ -124,11 +124,11 @@
 
 
     .swipeChildTextContainer h1 {
-        width: 90%;
+        width: 100%;
         text-align: center;
-        padding: 40px 20px;
+        padding: 40px 0px;
         background-color: rgba(0, 0, 0, 0.412);
-        font-size: 1.3rem;
+        font-size: 1.5rem;
     }
 
     .slideBadge {
