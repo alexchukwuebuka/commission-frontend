@@ -13,7 +13,7 @@ const Gallery = () => {
             <div className="specialGalleryCard">
               <img src="pic12.jpg" alt="" className="galleryImage" />
                 <div className="galleryInfo">
-                  <h2>Mr. okezie john</h2>
+                  <h2>Chief. Romanus Okemini Nwasum</h2>
                   <p>Chairman</p>
                 </div>
             </div>
