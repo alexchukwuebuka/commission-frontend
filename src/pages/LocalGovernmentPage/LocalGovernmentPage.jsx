@@ -1,9 +1,14 @@
 import React from 'react'
 import './lga.css'
+import Header from '../../components/header/Header'
+import Footer from '../../components/footer/Footer'
 
 const LocalGovernmentPage = () => {
   return (
-    <div>LocalGovernmentPage</div>
+    <main className='landpage'>
+      <Header />
+      <Footer />
+    </main>
   )
 }
 

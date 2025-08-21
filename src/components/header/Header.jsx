@@ -29,7 +29,7 @@ const Header = () => {
         { name: "about us", path: "/about", dropdown: [] }, 
         { name: "units/centers", path: "/", dropdown: ["development-centers","local-governments"] },
         { name: "administration", path: "/", dropdown: ["news-and-updates","gallery"] },
-        { name: "contact-us", path: "/", dropdown: ["complaints-$-reports"] },
+        { name: "contact-us", path: "/", dropdown: ["complaints-$-reports","faq"] },
     ];
 
     return (
