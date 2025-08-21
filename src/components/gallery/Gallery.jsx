@@ -14,7 +14,7 @@ const Gallery = () => {
               <img src="pic12.jpg" alt="" className="galleryImage" />
                 <div className="galleryInfo">
                   <h2>Chief. Romanus Okemini Nwasum</h2>
-                  <p>Chairman</p>
+                  <p>Chairman LGSC</p>
                 </div>
             </div>
             <div className="specialGalleryCard">
